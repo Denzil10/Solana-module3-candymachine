@@ -4,4 +4,3 @@ tasks:
       export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$PATH"
       eval $(gp env -e PATH=$HOME/.local/share/solana/install/active_release/bin:$PATH)
       bash <(curl -sSf https://sugar.metaplex.com/install.sh)
-      npm install
