@@ -44,11 +44,11 @@ bash <(curl -sSf https://sugar.metaplex.com/install.sh)`
    
    2. **Modify `config.json`:** Update your `config.json` to use the`splTokenAddress` of the token you created. (or Solana address if you want to use native currency)
  
-   3. **Create candy machine** Create it using sugar cli 
-   4. **Create env file in UI folder** Rename env. example to env and update it
-      
-env
-    `REACT_APP_CANDY_MACHINE_ID=<your_candy_machine_id>`
+   3. **Create candy machine** You can use the Sugar CLI
+
+   5. **Create env file in UI folder** Rename env. example to env and update it
+	env
+ 	`REACT_APP_CANDY_MACHINE_ID=<your_candy_machine_id>`
 
 ### Executing Program
 
