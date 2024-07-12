@@ -1,0 +1,12 @@
+# Ignore specific files and directories
+.gitpod.yml
+cache.json
+sugar.log
+user.json
+wallet.json
+imp
+
+# Allow README.md to be tracked
+!README.md
+
+git clone https://github.com/metaplex-foundation/candy-machine-ui ./candy-machine-ui/
