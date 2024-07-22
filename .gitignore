@@ -5,8 +5,10 @@ sugar.log
 user.json
 wallet.json
 imp
+libssl1.1_1.1.1f-1ubuntu2_amd64.deb
 
 # Allow README.md to be tracked
 !README.md
 
 git clone https://github.com/metaplex-foundation/candy-machine-ui ./candy-machine-ui/
+node_modules
